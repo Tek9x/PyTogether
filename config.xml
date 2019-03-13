@@ -1,0 +1,27 @@
+﻿<Config>
+  <Game>
+    <Vibration value="true" />
+    <InvertX value="false" />
+    <InvertY value="false" />
+    <ExpertMode value="false" />
+    <MouseSensitivity value="4" />
+    <GamepadSensitivity value="0.5" />
+    <VoiceChatVolume value="0.8" />
+    <VoiceChatSettings value="1" />
+    <TextChatSettings value="0" />
+    <ShowTutorial value="false" />
+    <ShowRecycleConfirm value="true" />
+    <RunToggle value="false" />
+    <EnableStats value="true" />
+    <DefaultCamera value="0" />
+    <Show3DIcons value="2" />
+    <SafeArea value="0" />
+    <InterfaceSize value="1" />
+    <PreferredPoI value="0" />
+  </Game>
+  <Sound>
+    <Sound value="0.8" />
+    <Music value="0.5" />
+    <Menu value="0.6" />
+  </Sound>
+</Config>

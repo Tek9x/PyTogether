@@ -1,0 +1,241 @@
+﻿<Farms version="2">
+  <Player Level="5" Progress="1341" Value="0" />
+  <Farms>
+    <Farm name="Wild Horse Farm" version="104" slot="0" level="99" levelProgress="0.00753874" style="FarmStyleWater" Coins="964500" Bills="7202" playMode="2" friendPermissions="1" publicPermissions="1" simulationSpeed="4" tutorialStep="100" fuel="0" last_save="636880597770000000" creation_time="636880446010000000" likes="0">
+      <UserPermissions />
+    </Farm>
+  </Farms>
+  <Events>
+    <Events id="Patricks">
+      <Progress index="0" progress="100" />
+      <Progress index="1" progress="100" />
+      <Progress index="2" progress="100" />
+      <Progress index="3" progress="100" />
+      <Progress index="4" progress="100" />
+      <Progress index="5" progress="100" />
+      <Progress index="6" progress="100" />
+      <Progress index="7" progress="100" />
+    </Events>
+  </Events>
+  <Rewards>
+    <Reward id="BodyBoySuitPatricks" />
+    <Reward id="BodyGirlSuitPatricks" />
+    <Reward id="BodyGirlSkirtPatricks" />
+    <Reward id="TagHorseshoe" />
+    <Reward id="RoadGemPath" />
+  </Rewards>
+  <Presets main="0">
+    <Preset name="Default">
+      <Avatar>
+        <Avatar bodyType="1" skinColor="9" hairColor="22" eyeColor="0" scale="0.5" body="BodyGirlSuitPatricks" head="HeadHeadGirlVikingA" hair="HairHairGirlDefault" glasses="GlassesGlassesNone" backpack="BackpackBackpackNone" emote0="EmoteEmoteApplause" emote1="EmoteEmoteGreetings" emote2="EmoteEmoteLaugh" emote3="EmoteEmoteAngry" />
+        <Vehicle body="BodyTractor" antenna="AntennaAntennaNone" pattern="PatternTractorA_Base" color="6" secondaryColor="2" />
+        <Pet body="PetNone" collar="CollarLeather" tag="TagRound" eyeColor="0" collarColor="1" detailColor="4" scale="0.5" />
+      </Avatar>
+      <Farmhand body="FarmhandWorker" />
+    </Preset>
+  </Presets>
+  <BannedPlayers />
+  <VisitedItems>
+    <Item id="BodyBoyRoman" />
+    <Item id="BodyBoyRomanB" />
+    <Item id="BodyBoyRomanC" />
+    <Item id="BodyBoyMedieval" />
+    <Item id="BodyBoyMedievalB" />
+    <Item id="BodyBoyMedievalC" />
+    <Item id="BodyBoyFarmerOldSchool" />
+    <Item id="BodyBoyFarmerOldSchoolB" />
+    <Item id="BodyBoyFarmerOldSchoolC" />
+    <Item id="BodyBoyFarmerOldSchoolD" />
+    <Item id="BodyBoyMexican" />
+    <Item id="BodyBoyMexicanB" />
+    <Item id="BodyBoyMexicanC" />
+    <Item id="BodyBoyChino" />
+    <Item id="BodyBoyChinoB" />
+    <Item id="BodyBoyChinoC" />
+    <Item id="BodyBoyChinoD" />
+    <Item id="BodyBoyYukata" />
+    <Item id="BodyBoyYukataB" />
+    <Item id="BodyBoyYukataC" />
+    <Item id="BodyBoyYukataD" />
+    <Item id="BodyBoyFisherman" />
+    <Item id="BodyBoyFishermanB" />
+    <Item id="BodyBoyFiremanSanta" />
+    <Item id="BodyBoySuitPatricks" />
+    <Item id="BodyBoyCasualSolstice" />
+    <Item id="BodyBoyCasualHalloween" />
+    <Item id="BodyBoyCowboyCountry" />
+    <Item id="BodyBoyDefault" />
+    <Item id="BodyBoyCasual" />
+    <Item id="BodyBoyPirateD" />
+    <Item id="BodyBoyPirate" />
+    <Item id="BodyBoyPirateC" />
+    <Item id="BodyBoyPirateB" />
+    <Item id="BodyGirlRoman" />
+    <Item id="BodyGirlRomanB" />
+    <Item id="BodyGirlRomanC" />
+    <Item id="BodyGirlMedieval" />
+    <Item id="BodyGirlMedievalB" />
+    <Item id="BodyGirlMedievalC" />
+    <Item id="BodyGirlFarmerOldSchool" />
+    <Item id="BodyGirlFarmerOldSchoolB" />
+    <Item id="BodyGirlFarmerOldSchoolC" />
+    <Item id="BodyGirlFarmerOldSchoolD" />
+    <Item id="BodyGirlMexican" />
+    <Item id="BodyGirlMexicanB" />
+    <Item id="BodyGirlMexicanC" />
+    <Item id="BodyGirlChina" />
+    <Item id="BodyGirlChinaB" />
+    <Item id="BodyGirlChinaC" />
+    <Item id="BodyGirlChinaD" />
+    <Item id="BodyGirlKimono" />
+    <Item id="BodyGirlKimonoB" />
+    <Item id="BodyGirlKimonoC" />
+    <Item id="BodyGirlKimonoD" />
+    <Item id="BodyGirlFisherman" />
+    <Item id="BodyGirlFishermanB" />
+    <Item id="BodyGirlFiremanSanta" />
+    <Item id="BodyGirlSkirtSanta" />
+    <Item id="BodyGirlSuitPatricks" />
+    <Item id="BodyGirlSkirtPatricks" />
+    <Item id="BodyGirlCasualSolstice" />
+    <Item id="BodyGirlCasualHalloween" />
+    <Item id="BodyGirlCowboyCountry" />
+    <Item id="BodyGirlDefault" />
+    <Item id="BodyGirlCasual" />
+    <Item id="BodyGirlPirateC" />
+    <Item id="BodyGirlPirateD" />
+    <Item id="BodyGirlPirateB" />
+    <Item id="BodyGirlPirate" />
+    <Item id="HeadHeadBoyPirate" />
+    <Item id="HeadHeadBoyVikingA" />
+    <Item id="HeadHeadBoyVikingB" />
+    <Item id="HeadHeadBoySoot" />
+    <Item id="HeadHeadBoyDiaMuertos" />
+    <Item id="HeadHeadBoyDefault" />
+    <Item id="HeadHeadBoyBaddie" />
+    <Item id="HeadHeadBoyVariationA" />
+    <Item id="HeadHeadBoyVariationB" />
+    <Item id="HeadHeadBoyVariationC" />
+    <Item id="HeadHeadGirlVikingA" />
+    <Item id="HeadHeadGirlVikingB" />
+    <Item id="HeadHeadGirlSoot" />
+    <Item id="HeadHeadGirlDiaMuertos" />
+    <Item id="HeadHeadGirlDefault" />
+    <Item id="HeadHeadGirlBaddie" />
+    <Item id="HeadHeadGirlVariationA" />
+    <Item id="HeadHeadGirlVariationB" />
+    <Item id="HeadHeadGirlVariationC" />
+    <Item id="HairHairBoyPirate" />
+    <Item id="HairHairBoyPirateB" />
+    <Item id="HairHairBoyPirateC" />
+    <Item id="HairHairBoyPirateD" />
+    <Item id="HairHairBoyRoman" />
+    <Item id="HairHairBoyMedieval" />
+    <Item id="HairHairBoyOldSchool" />
+    <Item id="HairHairBoyMexican" />
+    <Item id="HairHairBoyMexicanB" />
+    <Item id="HairHairBoyMexicanC" />
+    <Item id="HairHairBoyChineseB" />
+    <Item id="HairHairBoyChinese" />
+    <Item id="HairHairBoyJapanese" />
+    <Item id="HairHairBoyEaster" />
+    <Item id="HairHairBoyWitch" />
+    <Item id="HairHairBoyXmas" />
+    <Item id="HairHairBoyXmasGreen" />
+    <Item id="HairHairBoyStPatricks" />
+    <Item id="HairHairBoySanValentin" />
+    <Item id="HairHairBoyHanami" />
+    <Item id="HairHairBoySolsticio" />
+    <Item id="HairHairBoyFisherman" />
+    <Item id="HairHairBoyFishermanB" />
+    <Item id="HairHairBoyCowboyCountry" />
+    <Item id="HairHairBoyDefault" />
+    <Item id="HairHairBoyBobCut" />
+    <Item id="HairHairBoyFringe" />
+    <Item id="HairHairBoyFarmer" />
+    <Item id="HairHairBoyShaven" />
+    <Item id="HairHairGirlPirate" />
+    <Item id="HairHairGirlPirateB" />
+    <Item id="HairHairGirlPirateC" />
+    <Item id="HairHairGirlPirateD" />
+    <Item id="HairHairGirlRoman" />
+    <Item id="HairHairGirlMedievalHair" />
+    <Item id="HairHairGirlMedievalHat" />
+    <Item id="HairHairGirlMedievalHatB" />
+    <Item id="HairHairGirlMedievalHatC" />
+    <Item id="HairHairGirlOldSchool" />
+    <Item id="HairHairGirlThreeBraids" />
+    <Item id="HairHairGirlMexican" />
+    <Item id="HairHairGirlMexicanB" />
+    <Item id="HairHairGirlMexicanC" />
+    <Item id="HairHairGirlChineseB" />
+    <Item id="HairHairGirlChinese" />
+    <Item id="HairHairGirlJapanese" />
+    <Item id="HairHairGirlEaster" />
+    <Item id="HairHairGirlWitch" />
+    <Item id="HairHairGirlFisherman" />
+    <Item id="HairHairGirlFishermanB" />
+    <Item id="HairHairGirlXmas" />
+    <Item id="HairHairGirlXmasGreen" />
+    <Item id="HairHairGirlStPatricks" />
+    <Item id="HairHairGirlSanValentin" />
+    <Item id="HairHairGirlHanami" />
+    <Item id="HairHairGirlSolsticio" />
+    <Item id="HairHairGirlCowboyCountry" />
+    <Item id="HairHairGirlDefault" />
+    <Item id="HairHairGirlBobCut" />
+    <Item id="HairHairGirlFringe" />
+    <Item id="HairHairGirlFarmer" />
+    <Item id="GlassesGlassesNone" />
+    <Item id="GlassesEarringsPirate" />
+    <Item id="GlassesGlassesEyePatch" />
+    <Item id="GlassesGlassesStarGlow" />
+    <Item id="BackpackBackpackNone" />
+    <Item id="BackpackBackpackRomanShield" />
+    <Item id="BackpackBackpackLute" />
+    <Item id="BackpackBackpackVikingShield" />
+    <Item id="BackpackBackpackGuitar" />
+    <Item id="BackpackBackpackButterfly" />
+    <Item id="BackpackBackpackButterflyB" />
+    <Item id="EmoteEmoteSweat" />
+    <Item id="EmoteEmoteBaile3" />
+    <Item id="EmoteEmoteApplause" />
+    <Item id="EmoteEmoteGreetings" />
+    <Item id="EmoteEmoteLaugh" />
+    <Item id="EmoteEmoteAngry" />
+    <Item id="BodyTractorTricycle" />
+    <Item id="BodyTractor" />
+    <Item id="PatternTractorTricycle_Base" />
+    <Item id="PatternTractorTricycle_PatternA" />
+    <Item id="PatternTractorTricycle_PatternB" />
+    <Item id="PatternTractorTricycle_PatternC" />
+    <Item id="PatternTractorTricycle_PatternD" />
+    <Item id="PatternBuggie_Base" />
+    <Item id="PatternDumper_Base" />
+    <Item id="PatternElectric_Base" />
+    <Item id="PatternHarvester_Base" />
+    <Item id="PatternSteamroller_Base" />
+    <Item id="PatternTractorA_Base" />
+    <Item id="PatternTractorB_Base" />
+    <Item id="PatternTractorC_Base" />
+    <Item id="PatternElectric_SkinA" />
+    <Item id="PatternElectric_SkinB" />
+    <Item id="PatternElectric_SkinC" />
+    <Item id="PatternElectric_SkinD" />
+    <Item id="AntennaAntennaNone" />
+    <Item id="FarmhandWorker" />
+    <Item id="DLCMedieval" />
+    <Item id="DLCChina" />
+    <Item id="DLCViking" />
+    <Item id="FarmhandWorkerCamo" />
+    <Item id="FarmhandWorkerHawaii" />
+    <Item id="BodyTractorC" />
+    <Item id="AntennaAntennaTennis" />
+    <Item id="AntennaAntennaPool" />
+    <Item id="AntennaAntennaStar" />
+    <Item id="PetNone" />
+    <Item id="PetDogGermanShepherd" />
+  </VisitedItems>
+  <RecentIds />
+  <FavoriteIds />
+</Farms>
