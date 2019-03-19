@@ -1,15 +1,32 @@
 import xml.etree.ElementTree as ET
+import click
 import json
 
 with open('events.db') as f:
     db = json.load(f)
 
 Easter = db['Events']['Easter']['Rewards']
+FishingContest = db['Events']['FishingContest']['Rewards']
+Summer = db['Events']['Summer']['Rewards']
+MusicFestival = db['Events']['MusicFestival']['Rewards']
+Soltice = db['Events']['Soltice']['Rewards']
+HauntedHarvest = db['Events']['HauntedHarvest']['Rewards']
+LuckyHarvest = db['Events']['LuckyHarvest']['Rewards']
+ValentinesDay = db['Events']['ValentinesDay']['Rewards']
+SweetToothFestival = db['Events']['SweetToothFestival']['Rewards']
+StarryHarvest = db['Events']['StarryHarvest']['Rewards']
+Hanami = db['Events']['Hanami']['Rewards']
+Archaeology = db['Events']['Archaeology']['Rewards']
 
 tree = ET.parse("farms.xml")
 root = tree.getroot()
 element = tree.find('Rewards')
 
+def event_items(seasonal_event):
+    lst = []
+    for item in seasonal_event:
+        lst.append(item)
+    return lst
 
 def check_exists():
     if tree.find('Rewards') is None:
@@ -36,7 +53,6 @@ else:
     for items in Easter:
         print add_reward(items)
 save_file()
-
 
 
 

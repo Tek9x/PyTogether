@@ -17,12 +17,6 @@
       <Progress index="7" progress="100" />
     </Events>
   </Events>
-  <Rewards>
-    <Reward id="BodyBoySuitPatricks" />
-    <Reward id="BodyGirlSuitPatricks" />
-    <Reward id="BodyGirlSkirtPatricks" />
-    <Reward id="TagHorseshoe" />
-</Rewards>
   <Presets main="0">
     <Preset name="Default">
       <Avatar>
