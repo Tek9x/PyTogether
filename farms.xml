@@ -1,7 +1,7 @@
-﻿<Farms version="2">
+<Farms version="2">
   <Player Level="5" Progress="1341" Value="0" />
   <Farms>
-    <Farm name="Wild Horse Farm" version="104" slot="0" level="99" levelProgress="0.00753874" style="FarmStyleWater" Coins="964500" Bills="7202" playMode="2" friendPermissions="1" publicPermissions="1" simulationSpeed="4" tutorialStep="100" fuel="0" last_save="636880597770000000" creation_time="636880446010000000" likes="0">
+    <Farm Bills="7202" Coins="964500" creation_time="636880446010000000" friendPermissions="1" fuel="0" last_save="636880597770000000" level="99" levelProgress="0.00753874" likes="0" name="Wild Horse Farm" playMode="2" publicPermissions="1" simulationSpeed="4" slot="0" style="FarmStyleWater" tutorialStep="100" version="104">
       <UserPermissions />
     </Farm>
   </Farms>
@@ -22,14 +22,13 @@
     <Reward id="BodyGirlSuitPatricks" />
     <Reward id="BodyGirlSkirtPatricks" />
     <Reward id="TagHorseshoe" />
-    <Reward id="RoadGemPath" />
-  </Rewards>
+</Rewards>
   <Presets main="0">
     <Preset name="Default">
       <Avatar>
-        <Avatar bodyType="1" skinColor="9" hairColor="22" eyeColor="0" scale="0.5" body="BodyGirlSuitPatricks" head="HeadHeadGirlVikingA" hair="HairHairGirlDefault" glasses="GlassesGlassesNone" backpack="BackpackBackpackNone" emote0="EmoteEmoteApplause" emote1="EmoteEmoteGreetings" emote2="EmoteEmoteLaugh" emote3="EmoteEmoteAngry" />
-        <Vehicle body="BodyTractor" antenna="AntennaAntennaNone" pattern="PatternTractorA_Base" color="6" secondaryColor="2" />
-        <Pet body="PetNone" collar="CollarLeather" tag="TagRound" eyeColor="0" collarColor="1" detailColor="4" scale="0.5" />
+        <Avatar backpack="BackpackBackpackNone" body="BodyGirlSuitPatricks" bodyType="1" emote0="EmoteEmoteApplause" emote1="EmoteEmoteGreetings" emote2="EmoteEmoteLaugh" emote3="EmoteEmoteAngry" eyeColor="0" glasses="GlassesGlassesNone" hair="HairHairGirlDefault" hairColor="22" head="HeadHeadGirlVikingA" scale="0.5" skinColor="9" />
+        <Vehicle antenna="AntennaAntennaNone" body="BodyTractor" color="6" pattern="PatternTractorA_Base" secondaryColor="2" />
+        <Pet body="PetNone" collar="CollarLeather" collarColor="1" detailColor="4" eyeColor="0" scale="0.5" tag="TagRound" />
       </Avatar>
       <Farmhand body="FarmhandWorker" />
     </Preset>

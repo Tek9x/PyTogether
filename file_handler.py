@@ -6,5 +6,6 @@ def decompress(n):
 
 def compress(n):
     with open(n, 'rb') as f_in:
-        with gzip.open('farm_0.data', 'wb') as f_out:
+        with gzip.open('Events.json', 'wb') as f_out:
             shutil.copyfileobj(f_in, f_out)
+

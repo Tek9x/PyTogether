@@ -1,0 +1,134 @@
+{
+  "Events": {
+    "HauntedHarvest": {
+      "Rewards": [
+        "TreeHalloweenTree",
+        "FenceHalloweenLow",
+        "TagPumpkin",
+        "HairHairBoyWitch",
+        "HairHairGirlWitch"
+      ]
+    },
+    "FishingContest": {
+      "Rewards": [
+        "DecorationSubmarine",
+        "FenceLifePreservers",
+        "BodyBoyFisherman",
+        "BodyBoyFishermanB",
+        "BodyGirlFisherman",
+        "BodyGirlFishermanB",
+        "HairHairBoyFisherman",
+        "HairHairBoyFishermanB",
+        "HairHairGirlFisherman",
+        "HairHairGirlFishermanB",
+        "PondSardine",
+        "PondBass"
+      ]
+    },
+    "Easter": {
+      "Rewards": [
+        "HairHairBoyEaster",
+        "HairHairGirlEaster",
+        "DecorationEasterEggs",
+        "DecorationEasterBunny"
+      ]
+    },
+    "Summer": {
+      "Rewards": [
+        "DecorationSurfBoard",
+        "DecorationCampingTent",
+        "BackpackBackpackButterfly",
+        "BackpackBackpackButterflyB",
+        "FarmhandWorkerCamo"
+      ]
+    },
+    "Soltice": {
+      "Rewards": [
+        "DecorationBonfireLarge",
+        "RoadHotCoal",
+        "HairHairGirlSolsticio",
+        "HairHairBoySolsticio",
+        "TreePistachio",
+        "BodyBoyCasualSolstice",
+        "BodyGirlCasualSolstice",
+        "DecorationSunStele"
+      ]
+    },
+    "MusicFestival": {
+      "Rewards": [
+        "RoadXylophonePath",
+        "TreeChestnutTree",
+        "HairBoyCowboyCountry",
+        "HairHairGirlCowboyCountry",
+        "BodyBoyCowboyCountry",
+        "BodyGirlCowboyCountry",
+        "DecorationMusicStage",
+        "EmoteEmoteBaile3"
+      ]
+    },
+    "Archaeology": {
+      "Rewards": [
+        "FenceBoneArch",
+        "AccessoryPlushDino"
+      ]
+    },
+    "LuckyHarvest": {
+      "Rewards": [
+        "FlowerFoxglovePink",
+        "BodyBoySuitPatricks",
+        "HairHairBoyStPatricks",
+        "HairHairGirlStPatricks",
+        "FlowerFoxglovePurple",
+        "FlowerFoxgloveYellow",
+        "TagHorseshoe",
+        "BuildingPotOfGold",
+        "RoadGemPath"
+      ]
+    },
+    "Hanami": {
+      "Rewards": [
+        "TagFlower",
+        "TreeFloweringCherry",
+        "HairHairGirlHanami",
+        "HairHairBoyHanami",
+        "FarmhandWorkerHawaii",
+        "FenceHanamiLow",
+        "FenceHanamiLights"
+      ]
+    },
+    "ValentinesDay": {
+      "Rewards": [
+        "AnimalUnicorn",
+        "RoadPergolaValentines",
+        "FenceValentinesBalloonsPink",
+        "FenceValentinesBalloonsPurple",
+        "HairHairBoyValentines",
+        "HairHairGirlValentines"
+      ]
+    },
+    "StarryHarvest": {
+      "Rewards": [
+        "lassesGlassesStarGlow",
+        "AppliancePlanetarium",
+        "DecorationTelescope"
+      ]
+    },
+    "SweetToothFestival": {
+      "Rewards": [
+        "TagCandyCane",
+        "TreeXmasTree",
+        "FenceXmasFence",
+        "FenceXmasFenceDoor",
+        "FenceXmasArch",
+        "DecorationSnowman",
+        "DecorationGiftSleigh",
+        "BodyGirlFiremanSanta",
+        "BodyGirlSkirtSanta",
+        "BodyBoyFiremanSanta",
+        "HairHairBoyXmas",
+        "HairHairGirlXmas",
+        "HairHairGirlXmasGreen"
+      ]
+    }
+  }
+}
