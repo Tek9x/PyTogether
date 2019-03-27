@@ -1,58 +1,55 @@
 import xml.etree.ElementTree as ET
-import click
 import json
+import click
 
-with open('events.db') as f:
-    db = json.load(f)
-
-Easter = db['Events']['Easter']['Rewards']
-FishingContest = db['Events']['FishingContest']['Rewards']
-Summer = db['Events']['Summer']['Rewards']
-MusicFestival = db['Events']['MusicFestival']['Rewards']
-Soltice = db['Events']['Soltice']['Rewards']
-HauntedHarvest = db['Events']['HauntedHarvest']['Rewards']
-LuckyHarvest = db['Events']['LuckyHarvest']['Rewards']
-ValentinesDay = db['Events']['ValentinesDay']['Rewards']
-SweetToothFestival = db['Events']['SweetToothFestival']['Rewards']
-StarryHarvest = db['Events']['StarryHarvest']['Rewards']
-Hanami = db['Events']['Hanami']['Rewards']
-Archaeology = db['Events']['Archaeology']['Rewards']
-
-tree = ET.parse("farms.xml")
+tree = ET.parse('farms.xml')
 root = tree.getroot()
-element = tree.find('Rewards')
 
-def event_items(seasonal_event):
+def load_database():
+    try:
+        with open('events.db') as f:
+            db = json.load(f)
+            return db['Events']
+    except IOError:
+        print 'Could not find events.db'
+
+def load_event(event):
     lst = []
-    for item in seasonal_event:
-        lst.append(item)
-    return lst
+    try:
+        for item in load_database()[event]['Rewards']:
+            lst.append(item)
+        return lst
+    except KeyError:
+        print "no such event as " + event
 
-def check_exists():
-    if tree.find('Rewards') is None:
-        return False
+# def parse_xml():
+#     try:
+#         tree = ET.parse("farms.xml")
+#         return tree
+#     except IOError:
+#         print 'farms.xml not found'
+
+def create_tag():
+    print "No <Rewards> Tag Found, Creating one for you!"
+    root = tree.getroot()
+    root.append(ET.Element("Rewards"))
+    print 'Rewards Section Created Sucussfully'
+    save_file()
 
 
 def add_reward(r):
+    element = tree.find('Rewards')
     Reward = ET.SubElement(element, "Reward")
     Reward.set('id', r)
-    return 'Adding ' + str(r)
-
+    print 'Adding ' + str(r)
 
 def save_file():
     tree.write('farms.xml')
-    return 'Saved'
+    print 'Saved'
 
-
-if check_exists() is False:
-    print "No <Rewards> Tag Found, Creating one for you!"
-    root.append(ET.Element("Rewards"))
-    for item in Easter:
-        print add_reward(item)
-else:
-    for items in Easter:
-        print add_reward(items)
-save_file()
-
-
-
+# if tree.find('Rewards') is None:
+#     create_tag()
+# elif tree.find('Rewards') is not None:
+#     for item in load_event("FishingContest"):
+#         add_reward(item)
+# save_file()
