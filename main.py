@@ -2,7 +2,7 @@ import PySimpleGUI27 as sg
 import simplejson
 import untangle
 
-menu_def = [['File', ['Open', 'Save']]]
+menu_def = [['[F]ile', ['Open', 'Save','---','Edit Mode']],['[P]atchs'],['[A]bout']]
 
 tab_farm = [[sg.Text('Farm Name:'), sg.In(disabled=True,key='_name_')],
             [sg.Text('Farm Style:'), sg.Input(disabled=True,key='_style_')],
@@ -24,6 +24,27 @@ layout = [[sg.MenuBar(menu_def)
 
 window = sg.Window('Pytogether').Layout(layout)
 
+def seasonparser():
+    if db['Season'] is 0:
+        return 'no specific season'
+    if db['Season'] is 1:
+        return 'spring'
+    if db['Season'] is 2:
+        return 'summer'
+    if db['Season'] is 4:
+        return 'fall'
+    if db['Season'] is 8:
+        return 'winter'
+
+def weatherparser():
+    if db['Weather'] is 0:
+        return 'normal'
+    if db['Weather'] is 1:
+        return 'rain'
+    if db['Weather'] is 2:
+        return 'snow'
+    if db['Weather'] is 3:
+        return 'rain'
 
 while True:
     event, value = window.Read()
@@ -37,12 +58,9 @@ while True:
         window.Element('_name_').Update(obj.Farms.Farms.Farm['name'])
         window.Element('_style_').Update(db['FarmStyle'])
         window.Element('_saved_').Update(db['SaveDate'])
-        window.Element('_season_').Update(db['Season'])
-        window.Element('_weather_').Update(db['Weather'])
+        window.Element('_season_').Update(seasonparser())
+        window.Element('_weather_').Update(weatherparser())
         window.Element('_seed_').Update(db['WeatherRandom'])
-
-
-
 
 
 
