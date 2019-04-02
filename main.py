@@ -2,7 +2,7 @@ import PySimpleGUI27 as sg
 import simplejson
 import untangle
 
-menu_def = [['[F]ile', ['Open', 'Save','---','Edit Mode']],['[P]atchs'],['[A]bout']]
+menu_def = [['[F]ile', ['Open', 'Save','---','Edit Mode']],['[P]atchs', ['!Seasonal Events']],['[A]bout']]
 
 tab_farm = [[sg.Text('Farm Name:'), sg.In(disabled=True,key='_name_')],
             [sg.Text('Farm Style:'), sg.Input(disabled=True,key='_style_')],
@@ -11,7 +11,19 @@ tab_farm = [[sg.Text('Farm Name:'), sg.In(disabled=True,key='_name_')],
             [sg.Text('Weather:'),sg.Input(disabled=True,key='_weather_')],
             [sg.Text('Weather Seed'), sg.Input(disabled=True,key='_seed_')]]
 
-tab_character = [[sg.Text('character')]]
+tab_character = [[sg.Text('body:'),sg.Input(size=[15,0],disabled=True,key='_body_'),
+                  sg.Text('body type:'),sg.Input(size=[15,0],disabled=True,key='_bodytype_')],
+                 [sg.Text('emote0:'), sg.Input(size=[15,0],disabled=True,key='_e0_'),
+                  sg.Text('emote1:'),sg.Input(size=[15,0],disabled=True,key='_e1_')],
+                 [sg.Text('emote2:'),sg.Input(size=[15,0],disabled=True,key='_e2_'),
+                  sg.Text('emote3:'),sg.Input(size=[15,0],disabled=True,key='_e3_')],
+                 [sg.Text('eye Color:'),sg.Input(size=[15,0],disabled=True,key='_eyes_'),
+                  sg.Text('glasses:'),sg.Input(size=[15,0],disabled=True,key='_glasses_')],
+                 [sg.Text('head:'),sg.Input(size=[15,0],disabled=True,key='_head_'),
+                  sg.Text('backpack:'),sg.Input(size=[15,0],disabled=True,key='_backpack_')],
+                 [sg.Text('Hair:'),sg.Input(size=[15,0],disabled=True,key='_hair_'),
+                  sg.Text('Hair Color:'),sg.Input(size=[15,0],disabled=True,key='_haircolor_')]]
+
 
 tab_pet = [[sg.Text('pet')]]
 
@@ -61,6 +73,26 @@ while True:
         window.Element('_season_').Update(seasonparser())
         window.Element('_weather_').Update(weatherparser())
         window.Element('_seed_').Update(db['WeatherRandom'])
+        window.Element('_body_').Update(obj.Farms.Avatar.Avatar['body'])
+        window.Element('_bodytype_').Update(obj.Farms.Avatar.Avatar['bodyType'])
+        window.Element('_e0_').Update(obj.Farms.Avatar.Avatar['emote0'])
+        window.Element('_e1_').Update(obj.Farms.Avatar.Avatar['emote1'])
+        window.Element('_e2_').Update(obj.Farms.Avatar.Avatar['emote2'])
+        window.Element('_e3_').Update(obj.Farms.Avatar.Avatar['emote3'])
+        window.Element('_eyes_').Update(obj.Farms.Avatar.Avatar['eyeColor'])
+        window.Element('_glasses_').Update(obj.Farms.Avatar.Avatar['glasses'])
+        window.Element('_head_').Update(obj.Farms.Avatar.Avatar['head'])
+        window.Element('_backpack_').Update(obj.Farms.Avatar.Avatar['backpack'])
+        window.Element('_hair_').Update(obj.Farms.Avatar.Avatar['hair'])
+        window.Element('_haircolor_').Update(obj.Farms.Avatar.Avatar['hairColor'])
+
+    if event == 'Edit Mode':
+        window.Element('_name_').Update(disabled=False)
+        window.Element('_style_').Update(disabled=False)
+        window.Element('_season_').Update(disabled=False)
+        window.Element('_weather_').Update(disabled=False)
+        window.Element('_seed_').Update(disabled=False)
+
 
 
 
