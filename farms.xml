@@ -1,12 +1,12 @@
-<Farms version="2">
-  <Player Level="5" Progress="1341" Value="0" />
+<Farms>
+  <Player Level="3" Progress="174" Value="0" />
   <Farms>
-    <Farm Bills="7202" Coins="964500" creation_time="636880446010000000" friendPermissions="1" fuel="0" last_save="636880597770000000" level="99" levelProgress="0.00753874" likes="0" name="Wild Horse Farm" playMode="2" publicPermissions="1" simulationSpeed="4" slot="0" style="FarmStyleWater" tutorialStep="100" version="104">
+    <Farm Bills="10000" Coins="31829" creation_time="636857656577233770" friendPermissions="0" fuel="0" last_save="636857779644956589" level="1" levelProgress="0.515" likes="0" name="HackAFarm" playMode="0" publicPermissions="0" simulationSpeed="4" slot="0" style="FarmStyleDefault" tutorialStep="101" version="95">
       <UserPermissions />
     </Farm>
   </Farms>
   <Events>
-    <Events id="Patricks">
+    <Events id="Halloween">
       <Progress index="0" progress="100" />
       <Progress index="1" progress="100" />
       <Progress index="2" progress="100" />
@@ -14,24 +14,23 @@
       <Progress index="4" progress="100" />
       <Progress index="5" progress="100" />
       <Progress index="6" progress="100" />
-      <Progress index="7" progress="100" />
     </Events>
   </Events>
-  <Presets main="0">
-    <Preset name="Default">
-      <Avatar>
-        <Avatar backpack="BackpackBackpackNone" body="BodyGirlSuitPatricks" bodyType="1" emote0="EmoteEmoteApplause" emote1="EmoteEmoteGreetings" emote2="EmoteEmoteLaugh" emote3="EmoteEmoteAngry" eyeColor="0" glasses="GlassesGlassesNone" hair="HairHairGirlDefault" hairColor="22" head="HeadHeadGirlVikingA" scale="0.5" skinColor="9" />
-        <Vehicle antenna="AntennaAntennaNone" body="BodyTractor" color="6" pattern="PatternTractorA_Base" secondaryColor="2" />
-        <Pet body="PetNone" collar="CollarLeather" collarColor="1" detailColor="4" eyeColor="0" scale="0.5" tag="TagRound" />
-      </Avatar>
-      <Farmhand body="FarmhandWorker" />
-    </Preset>
-  </Presets>
+  <Rewards>
+    <Reward id="TagHeart" />
+    <Reward id="HairHairBoySanValentin" />
+    <Reward id="HairHairGirlSanValentin" />
+    <Reward id="HairHairBoyWitch" />
+
+  <Reward id="HairHairBoyFisherman" /></Rewards>
+  <Avatar>
+    <Avatar backpack="BackpackBackpackNone" body="BodyGirlDefault" bodyType="1" emote0="EmoteEmoteSweat" emote1="EmoteEmoteApplause" emote2="EmoteEmoteGreetings" emote3="EmoteEmoteLaugh" eyeColor="6" glasses="GlassesGlassesNone" hair="HairHairBoyWitch" hairColor="7" head="HeadHeadGirlDefault" scale="0.5" skinColor="1" />
+    <Vehicle antenna="AntennaAntennaNone" body="BodyTractor" color="6" pattern="PatternTractorA_Base" secondaryColor="2" />
+    <Pet body="PetNone" collar="CollarLeather" collarColor="1" detailColor="4" eyeColor="0" scale="0.5" tag="TagRound" />
+  </Avatar>
+  <Farmhand body="FarmhandWorker" />
   <BannedPlayers />
   <VisitedItems>
-    <Item id="BodyBoyRoman" />
-    <Item id="BodyBoyRomanB" />
-    <Item id="BodyBoyRomanC" />
     <Item id="BodyBoyMedieval" />
     <Item id="BodyBoyMedievalB" />
     <Item id="BodyBoyMedievalC" />
@@ -59,13 +58,6 @@
     <Item id="BodyBoyCowboyCountry" />
     <Item id="BodyBoyDefault" />
     <Item id="BodyBoyCasual" />
-    <Item id="BodyBoyPirateD" />
-    <Item id="BodyBoyPirate" />
-    <Item id="BodyBoyPirateC" />
-    <Item id="BodyBoyPirateB" />
-    <Item id="BodyGirlRoman" />
-    <Item id="BodyGirlRomanB" />
-    <Item id="BodyGirlRomanC" />
     <Item id="BodyGirlMedieval" />
     <Item id="BodyGirlMedievalB" />
     <Item id="BodyGirlMedievalC" />
@@ -95,11 +87,6 @@
     <Item id="BodyGirlCowboyCountry" />
     <Item id="BodyGirlDefault" />
     <Item id="BodyGirlCasual" />
-    <Item id="BodyGirlPirateC" />
-    <Item id="BodyGirlPirateD" />
-    <Item id="BodyGirlPirateB" />
-    <Item id="BodyGirlPirate" />
-    <Item id="HeadHeadBoyPirate" />
     <Item id="HeadHeadBoyVikingA" />
     <Item id="HeadHeadBoyVikingB" />
     <Item id="HeadHeadBoySoot" />
@@ -118,11 +105,6 @@
     <Item id="HeadHeadGirlVariationA" />
     <Item id="HeadHeadGirlVariationB" />
     <Item id="HeadHeadGirlVariationC" />
-    <Item id="HairHairBoyPirate" />
-    <Item id="HairHairBoyPirateB" />
-    <Item id="HairHairBoyPirateC" />
-    <Item id="HairHairBoyPirateD" />
-    <Item id="HairHairBoyRoman" />
     <Item id="HairHairBoyMedieval" />
     <Item id="HairHairBoyOldSchool" />
     <Item id="HairHairBoyMexican" />
@@ -147,11 +129,6 @@
     <Item id="HairHairBoyFringe" />
     <Item id="HairHairBoyFarmer" />
     <Item id="HairHairBoyShaven" />
-    <Item id="HairHairGirlPirate" />
-    <Item id="HairHairGirlPirateB" />
-    <Item id="HairHairGirlPirateC" />
-    <Item id="HairHairGirlPirateD" />
-    <Item id="HairHairGirlRoman" />
     <Item id="HairHairGirlMedievalHair" />
     <Item id="HairHairGirlMedievalHat" />
     <Item id="HairHairGirlMedievalHatB" />
@@ -180,55 +157,43 @@
     <Item id="HairHairGirlFringe" />
     <Item id="HairHairGirlFarmer" />
     <Item id="GlassesGlassesNone" />
-    <Item id="GlassesEarringsPirate" />
-    <Item id="GlassesGlassesEyePatch" />
     <Item id="GlassesGlassesStarGlow" />
     <Item id="BackpackBackpackNone" />
-    <Item id="BackpackBackpackRomanShield" />
     <Item id="BackpackBackpackLute" />
     <Item id="BackpackBackpackVikingShield" />
     <Item id="BackpackBackpackGuitar" />
     <Item id="BackpackBackpackButterfly" />
     <Item id="BackpackBackpackButterflyB" />
     <Item id="EmoteEmoteSweat" />
-    <Item id="EmoteEmoteBaile3" />
     <Item id="EmoteEmoteApplause" />
     <Item id="EmoteEmoteGreetings" />
     <Item id="EmoteEmoteLaugh" />
     <Item id="EmoteEmoteAngry" />
+    <Item id="EmoteEmoteSwishSwish" />
     <Item id="BodyTractorTricycle" />
     <Item id="BodyTractor" />
-    <Item id="PatternTractorTricycle_Base" />
-    <Item id="PatternTractorTricycle_PatternA" />
-    <Item id="PatternTractorTricycle_PatternB" />
-    <Item id="PatternTractorTricycle_PatternC" />
-    <Item id="PatternTractorTricycle_PatternD" />
     <Item id="PatternBuggie_Base" />
     <Item id="PatternDumper_Base" />
-    <Item id="PatternElectric_Base" />
     <Item id="PatternHarvester_Base" />
     <Item id="PatternSteamroller_Base" />
     <Item id="PatternTractorA_Base" />
     <Item id="PatternTractorB_Base" />
     <Item id="PatternTractorC_Base" />
-    <Item id="PatternElectric_SkinA" />
-    <Item id="PatternElectric_SkinB" />
-    <Item id="PatternElectric_SkinC" />
-    <Item id="PatternElectric_SkinD" />
+    <Item id="PatternTractorTricycle_Base" />
+    <Item id="PatternTractorTricycle_PatternA" />
+    <Item id="PatternTractorTricycle_PatternB" />
+    <Item id="PatternTractorTricycle_PatternC" />
+    <Item id="PatternTractorTricycle_PatternD" />
     <Item id="AntennaAntennaNone" />
+    <Item id="FarmhandWorkerB" />
+    <Item id="FarmhandWorkerC" />
     <Item id="FarmhandWorker" />
-    <Item id="DLCMedieval" />
-    <Item id="DLCChina" />
-    <Item id="DLCViking" />
-    <Item id="FarmhandWorkerCamo" />
-    <Item id="FarmhandWorkerHawaii" />
     <Item id="BodyTractorC" />
-    <Item id="AntennaAntennaTennis" />
-    <Item id="AntennaAntennaPool" />
-    <Item id="AntennaAntennaStar" />
-    <Item id="PetNone" />
-    <Item id="PetDogGermanShepherd" />
+    <Item id="HairHairGirlAfro" />
+    <Item id="BackpackBackpackBasic" />
+    <Item id="DLCJapan" />
+    <Item id="DLCSupporters" />
   </VisitedItems>
   <RecentIds />
   <FavoriteIds />
-<Rewards><Reward id="HairHairBoyEaster" /><Reward id="HairHairGirlEaster" /><Reward id="DecorationEasterEggs" /><Reward id="DecorationEasterBunny" /><Reward id="DecorationSubmarine" /><Reward id="FenceLifePreservers" /><Reward id="BodyBoyFisherman" /><Reward id="BodyBoyFishermanB" /><Reward id="BodyGirlFisherman" /><Reward id="BodyGirlFishermanB" /><Reward id="HairHairBoyFisherman" /><Reward id="HairHairBoyFishermanB" /><Reward id="HairHairGirlFisherman" /><Reward id="HairHairGirlFishermanB" /><Reward id="PondSardine" /><Reward id="PondBass" /></Rewards></Farms>
+</Farms>
